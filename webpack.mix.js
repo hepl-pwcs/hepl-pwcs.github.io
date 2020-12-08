@@ -1,6 +1,8 @@
-let mix = require('laravel-mix');
+let mix = require('laravel-mix')
 
-mix.sass('src/scss/main.scss', 'dist/css/');
+mix
+  .sass('src/scss/main.scss', 'dist/css/')
+  .copyDirectory('src/images', 'dist/images')
 
 // Full API
 // mix.js(src, output);

@@ -1,3 +1,22 @@
 body {
   font-family: "Avenir Next", "Century Gothic", sans-serif;
 }
+
+main {
+  margin: auto;
+  max-width: 40em;
+}
+
+h1 {
+  color: darkcyan;
+  font-weight: normal;
+}
+
+
+.handwritten {
+  font-family: Noteworthy, "Comic Sans MS", fantasy;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
